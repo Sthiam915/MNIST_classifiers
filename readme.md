@@ -31,8 +31,8 @@ When the network is finished training, it will output a png image "accuracy.png"
 
 # example outputs
 
-<img src="examples/terminal" alt="drawing" width="200"/>
-<img src="examples/accuracy" alt="drawing" width="200"/>
+<img src="examples/terminal"  width="200"/>
+<img src="examples/accuracy" width="200"/>
 
 
 ## Future Implementations
