@@ -15,7 +15,7 @@ pip install -r requirements.txt
 To use the from scratch, simply run the command:
 
 ```
-python3 nn_from_scratch.py [train_size] [step_size]
+python3 nn_from_scratch.py [train_size] [learning_rate]
 ```
 
 ```
@@ -23,7 +23,7 @@ python3 nn_from_scratch.py [train_size] [step_size]
 python3 nn_from_scratch.py 30000 0.01
 ```
 
-This example will train the network on 30,000 images with a step size of 0.01. train_size can be from 0 to 50000, and step_size must be greater than 0.
+This example will train the network on 30,000 images with a learning rate of 0.01. train_size can be from 0 to 50000, and learning_rate must be greater than 0.
 
 The network will continuously output its current test accuracy as well as how much of the set it has been trained on.
 
